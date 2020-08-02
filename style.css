@@ -14,7 +14,7 @@ body,html {
     min-height: 100vw;
     background: url(images/hotel.jpg);
      background-repeat: no-repeat;
-     background-size:1200px auto;
+     background-size:100vw auto;
      text-align: center;
        
 }
