@@ -1,53 +1,48 @@
 html {
-    font-family: 'Roboto Mono', monospace;
-    font-size:16px;
-    min-width:100vw;
-    max-width:100vw;
-    min-height: 100vw;
-    max-height: 100vw;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: 100vw;
+  max-height: 100vw;
 }
 #container {
-    text-align: center;
+  text-align: center;
 }
 #hotelMainDiv {
-    min-width:100vw;
-    min-height: 65vw;
-    /* background: url(images/hotel.jpg);
+  min-width: 100vw;
+  min-height: 65vw;
+  /* background: url(images/hotel.jpg);
      background-repeat: no-repeat;
      background-size:100vw auto; */
-     text-align: center;
-       
+  text-align: center;
 }
 
-.imageDiv{
-    min-width:100vw;
-    min-height: 65vw;
-    background: url(images/hotel.jpg);
-    background-repeat: no-repeat;
-    background-size:100vw auto;
-    position:fixed;
-    z-index: -1;
-    /* bottom:120; */
+.imageDiv {
+  min-width: 100vw;
+  min-height: 65vw;
+  position: fixed;
+  z-index: -1;
+  /* bottom:120; */
 }
 
 .textBubble {
-    display:inline-block;
-    width:80vw;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color:rgba(138, 138, 138, .75);
-  
+  display: inline-block;
+  width: 80vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(138, 138, 138, 0.75);
 }
 .choiceDiv {
-    /* position:fixed;
+  /* position:fixed;
     bottom:0; */
 }
 
 .choices {
-    float:left;
-   
-    width: 30vw;
-    height: 10vw;
-    border: 3px solid black;
-    background-color:rgb(138, 138, 138);
+  float: center;
+
+  width: 80vw;
+  height: 10vw;
+  border: 3px solid black;
+  background-color: rgb(138, 138, 138);
 }
