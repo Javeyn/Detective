@@ -6,6 +6,8 @@ body, html {
   min-height: 100vw;
   max-height: 100vw;
   overflow: hidden;
+  padding:0;
+  margin:0;
 }
 #container {
   text-align: center;
