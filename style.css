@@ -23,14 +23,14 @@ body, html {
 }
 
 .imageDiv{
-    min-width:100vw;
+    /* min-width:100vw;
     min-height: 65vw;
     background: url(images/hotel.jpg);
     background-repeat: no-repeat;
     background-size:100vw auto;
     position:fixed;
     z-index: -1;
-    /* bottom:120; */
+    bottom:120; */
 }
 
 .textBubble {
