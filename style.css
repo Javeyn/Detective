@@ -21,8 +21,9 @@ body, html {
   text-align: center;
 }
 #hotelPic {
+  padding-top:10px;
     width: 100vw;
-    height: auto;
+    height: 60vw;
 }
 .imageDiv {
   min-width: 100vw;
