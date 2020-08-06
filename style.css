@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   font-family: "Roboto Mono", monospace;
   font-size: 16px;
   min-width: 100vw;
@@ -6,12 +7,12 @@ body, html {
   min-height: 100vw;
   max-height: 100vw;
   overflow: hidden;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 #container {
-  width:100%;
-  height:30%;
+  width: 100%;
+  height: 30%;
   text-align: center;
 }
 #hotelMainDiv {
@@ -23,17 +24,16 @@ body, html {
   text-align: center;
 }
 #hotelPic {
-  padding-top:10px;
-  padding-bottom:1px;
-    width: 100%;
-    height: 100%;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  object-fit: cover;
 }
 .imageDiv {
   min-width: 100vw;
   /* min-height: 65vw; */
   position: fixed;
   /* z-index: -1; */
-  bottom:0;
+  bottom: 0;
 }
 
 .textBubble {
@@ -44,8 +44,8 @@ body, html {
   background-color: rgba(138, 138, 138, 0.75);
 }
 .choiceDiv {
-  position:fixed;
-    bottom:0;
+  position: fixed;
+  bottom: 0;
 }
 
 .choices {
@@ -55,4 +55,20 @@ body, html {
   height: 10%;
   border: 3px solid black;
   background-color: rgb(138, 138, 138);
+}
+
+.background {
+  z-index: -1;
+  position: absolute;
+  padding-top: 10%;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  /* background-image: url(images/hotel.jpg);
+  background-repeat: none; */
+}
+
+#imageTime {
+  width: 100%;
+  height: auto;
 }
