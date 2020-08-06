@@ -10,7 +10,7 @@ html {
   padding: 0;
   margin: 0;
   background-image: url(images/hotelstart.jpg);
-  background-size: auto 1280px; 
+  background-size: cover; 
   background-repeat: none;
   /* background-size:548px 364px; */
 }
