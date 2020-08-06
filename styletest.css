@@ -1,0 +1,28 @@
+
+body,html{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+.fullScreen {
+    height:100%;
+    width:100%;
+    text-align: center;
+    margin:0;
+}
+
+.topThird,.middleThird,.bottomThird {
+min-width:100%;
+    height:33%;
+    border:1px solid black;
+}
+
+.background {
+    z-index: -1;
+    position: absolute;
+    padding-top:10%;
+    top: 0;
+    width: 100%;
+    height:66%;
+    background-color: red;
+}
