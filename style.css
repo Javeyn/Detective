@@ -73,3 +73,9 @@ html {
   width: 100%;
   height: auto;
 }
+
+#mememe {
+  background-image: url(images/me.jpg);
+  background-size: contain; 
+  background-repeat: no-repeat;
+}
