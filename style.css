@@ -9,6 +9,10 @@ html {
   overflow: hidden;
   padding: 0;
   margin: 0;
+  background-image: url(images/hotel.jpg);
+  background-size:contain; 
+  background-repeat: none;
+  /* background-size:548px 364px; */
 }
 #container {
   width: 100%;
@@ -17,7 +21,7 @@ html {
 }
 #hotelMainDiv {
   width: 100vw;
-  height: auto;
+  
   /* background: url(images/hotel.jpg);
      background-repeat: no-repeat;
      background-size:100vw auto; */
@@ -62,11 +66,8 @@ html {
   position: absolute;
   padding-top: 10%;
   top: 0;
-  width: 100vw;
-  height: auto;
-  /* background-image: url(images/hotel.jpg);
-  background-repeat: none; */
-}
+   
+} 
 
 #imageTime {
   width: 100%;
