@@ -9,8 +9,8 @@ html {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  background-image: url(images/hotel.jpg);
-  background-size:contain; 
+  background-image: url(images/hotelstart.jpg);
+  background-size: auto 1280px; 
   background-repeat: none;
   /* background-size:548px 364px; */
 }

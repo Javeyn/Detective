@@ -16,3 +16,6 @@ SO! That brings you here. I talked all sorts of mad shit about making a game, an
 This is going to be a clicky style choose your own adventure game. It will have a short story to follow, and only a few correct paths to take. 
 
 It will be simple, and hopefully somewhat entertaining. I hope you enjoy.
+
+NOTES:
+720x1280 is very popular phone resolution
