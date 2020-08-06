@@ -1,8 +1,11 @@
 
 body,html{
-    height:100%;
-    width:100%;
+    height:100vh;
+    width:100vw;
     overflow:hidden;
+    padding: 0;
+    margin: 0;
+overflow:hidden;
 }
 .fullScreen {
     height:100%;
@@ -12,8 +15,8 @@ body,html{
 }
 
 .topThird,.middleThird,.bottomThird {
-min-width:100%;
-    height:33%;
+max-width:100vw;
+    height:33vh;
     border:1px solid black;
 }
 
@@ -22,7 +25,7 @@ min-width:100%;
     position: absolute;
     padding-top:10%;
     top: 0;
-    width: 100%;
-    height:66%;
+    width: 100vw;
+    height:auto;
     background-color: red;
 }
