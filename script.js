@@ -10,26 +10,26 @@ var qOneThree = document.getElementById("qOneThree")
 function startgame() {
 
 }
-document.getElementById("continueButton").addEventListener("click", continueFunct);
+// document.getElementById("continueButton").addEventListener("click", continueFunct);
 
-function continueFunct() {
-    console.log("clicked continue")
-}
+// function continueFunct() {
+//     console.log("clicked continue")
+// }
 
 document.getElementById("qOneOne").addEventListener("click", qOneOnefunct);
 
 function qOneOnefunct() {
-console.log("click1")
+console.log("I")
 }
 
 document.getElementById("qOneTwo").addEventListener("click", qOneTwofunct)
 
 function qOneTwofunct() {
-    console.log("click2")    
+    console.log("Love You")    
 }
 
 document.getElementById("qOneThree").addEventListener("click", qOneThreefunct)
 
 function qOneThreefunct() {
-    console.log("click3")   
+    console.log("Sweetheart")   
 }

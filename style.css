@@ -25,13 +25,21 @@ html {
 }
 
 
-.textBubble {
+.textBubble, #textBubble1, #textBubble2 {
   display: inline-block;
   width: 80vw;
   border: 1px solid black;
   border-radius: 10px;
   background-color: rgba(138, 138, 138, 0.75);
 }
+#story1, #story2, #story3 {
+  display: inline-block;
+  width: 80vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(138, 138, 138, 0.75);
+}
+
 .choiceDiv {
   position: fixed;
   bottom: 0;
@@ -52,12 +60,24 @@ html {
   border: 3px solid black;
   background-color: rgb(138, 138, 138);
 }
-#continueButton {
+
+#continueButton, #continueButton1,#continueButton3,#continueButton4 {
   float: center;
-  width: 100vw;
-  height: 25%;
+  width: 100%;
+  height: 15%;
   border: 3px solid black;
   background-color: rgb(138, 138, 138);
+  position: fixed;
+  bottom: 0;
+}
+
+.continueDiv {float: center;
+  width: 100%;
+  height: 15%;
+  border: 3px solid black;
+  background-color: rgb(138, 138, 138);
+  position: fixed;
+  bottom: 0;
 }
 
 #mememe {
