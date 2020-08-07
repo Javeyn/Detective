@@ -21,24 +21,9 @@ html {
 }
 #hotelMainDiv {
   width: 100vw;
-  
-  /* background: url(images/hotel.jpg);
-     background-repeat: no-repeat;
-     background-size:100vw auto; */
   text-align: center;
 }
-#hotelPic {
-  padding-top: 10px;
-  padding-bottom: 1px;
-  object-fit: cover;
-}
-.imageDiv {
-  min-width: 100vw;
-  /* min-height: 65vw; */
-  position: fixed;
-  /* z-index: -1; */
-  bottom: 0;
-}
+
 
 .textBubble {
   display: inline-block;
@@ -60,18 +45,19 @@ html {
   border: 3px solid black;
   background-color: rgb(138, 138, 138);
 }
-
-.background {
-  z-index: -1;
-  position: absolute;
-  padding-top: 10%;
-  top: 0;
-   
-} 
-
-#imageTime {
-  width: 100%;
-  height: auto;
+#qOneOne, #qOneTwo, #qOneThree {
+  float: center;
+  width: 100vw;
+  height: 10%;
+  border: 3px solid black;
+  background-color: rgb(138, 138, 138);
+}
+#continueButton {
+  float: center;
+  width: 100vw;
+  height: 25%;
+  border: 3px solid black;
+  background-color: rgb(138, 138, 138);
 }
 
 #mememe {
