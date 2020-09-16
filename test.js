@@ -18,7 +18,7 @@ document.body.style.backgroundImage = "url('./images/startcity.jpg')"
 
 
 var gameMusic = new Audio("./audio/beginning.wav");
-var countdown = new Audio("./audio/countdown.wav");
+var countdown = new Audio("./audio/heartbeat2.wav");
 var badgeMusic = new Audio("./audio/badge.wav");
 var knifeMusic = new Audio("./audio/knife.wav");
 var gunMusic = new Audio("./audio/gun.wav");
@@ -83,6 +83,8 @@ document.getElementById("qOneTwo").addEventListener("click", qOneTwofunct);
 document.getElementById("qOneThree").addEventListener("click", qOneThreefunct);
 
 //these are the click functions
+
+//this is the first screen of the game
 function continue1Funct() {
     console.log("clicked continue")
     document.getElementById("continueButton1").style.display = "none";
@@ -95,6 +97,8 @@ function continue1Funct() {
     startMusic()
     // document.body.style.backgroundImage = "url('./images/hotelstart.jpg')"
 }
+
+//second screen
 function continue2Funct() {
     console.log("clicked continue2")
     document.getElementById("continueButton2").style.display = "none";
@@ -103,7 +107,7 @@ function continue2Funct() {
     document.getElementById("story3").style.display = "inherit";
   
 }
-
+//third screen, first choice
 function continue3Funct() {
     console.log("clicked continue2")
     document.getElementById("continueButton3").style.display = "none";
@@ -118,7 +122,7 @@ choiceCounter=true
   stopMusic();
   startCountdown();
 }
-
+//player selects gun
 function qOneOnefunct() {
     document.getElementById("questionOne").style.display = "none";
     stopCountdown();
@@ -130,7 +134,7 @@ function qOneOnefunct() {
     gunBool=true;
     gunMusicStart();
 }
-
+//player selects knife
 function qOneTwofunct() {
     document.getElementById("questionOne").style.display = "none";
     stopCountdown();
@@ -142,7 +146,7 @@ function qOneTwofunct() {
     knifeBool=true;
     knifeMusicStart();
 }
-
+//player selects badge
 function qOneThreefunct() {
     document.getElementById("questionOne").style.display = "none";
     stopCountdown(); 
